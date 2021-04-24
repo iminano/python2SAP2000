@@ -4,7 +4,7 @@ Created on Fri Apr  9 12:39:27 2021
 
 @author: iminano
 """
-pip install pipreqs
+pip install comtypes
 
 import streamlit as st
 import numpy as np
