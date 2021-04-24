@@ -1,7 +1,2 @@
-import streamlit as st
-import numpy as np
-import pandas as pd
-import math
-import os
-import sys
-import comtypes.client
+
+pip install comtypes
