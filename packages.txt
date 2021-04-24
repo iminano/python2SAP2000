@@ -1,3 +1,3 @@
-pip install comtypes
-pipreqs iminano/python2SAP2000
+comtypes == 1.1.7
+
 
