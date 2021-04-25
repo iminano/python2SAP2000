@@ -4,11 +4,14 @@ Created on Fri Apr  9 12:39:27 2021
 
 @author: iminano
 """
-
+import comtypes.client
 import streamlit as st
 import numpy as np
 import pandas as pd
 import math
+import os
+import sys
+import comtypes.client
 
 
 st.write("""
@@ -71,15 +74,7 @@ loc=np.asarray(loc)
 
 def runSAP2000(loc):
     
-    import os
 
-    import sys
-    
-    import comtypes.client
-    
-    import numpy as np
-    
-    import math
     
     #set the following flag to True to attach to an existing instance of the program
     
