@@ -6,7 +6,7 @@ Created on Fri Apr  9 12:39:27 2021
 """
 
 import pip
-import comtypes.client
+import comtypes
 import streamlit as st
 import numpy as np
 import pandas as pd
