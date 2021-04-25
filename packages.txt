@@ -1,1 +1,1 @@
-$ pipreqs /iminano/python2sap2000/
+(venv) $ pip install --upgrade -r requirements.txt
