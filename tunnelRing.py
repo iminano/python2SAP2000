@@ -80,7 +80,7 @@ def runSAP2000(loc):
     
     #otherwise a new instance of the program will be started
     
-    AttachToInstance = True
+    AttachToInstance = False
     
      
     
