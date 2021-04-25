@@ -1,3 +1,3 @@
 
-/home/appuser/venv/bin/python -m pip install --upgrade pip
+py -m pip install --upgrade pip
 $ pipreqs /iminano/python2sap2000/
