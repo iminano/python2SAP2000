@@ -13,7 +13,6 @@ import pandas as pd
 import math
 import os
 import sys
-import comtypes.client
 
 
 st.write("""
@@ -81,7 +80,7 @@ def runSAP2000(loc):
     
     #otherwise a new instance of the program will be started
     
-    AttachToInstance = False
+    AttachToInstance = True
     
      
     
@@ -91,13 +90,13 @@ def runSAP2000(loc):
     
     #otherwise the latest installed version of SAP2000 will be launched
     
-    SpecifyPath = False
+    SpecifyPath = True
     
      
     
     #if the above flag is set to True, specify the path to SAP2000 below
     
-    # ProgramPath = 'C:\Program Files\Computers and Structures\SAP2000 23\SAP2000.exe'
+    ProgramPath = 'C:\Program Files\Computers and Structures\SAP2000 23\SAP2000.exe'
     # ProgramPath = 'C:\Program Files\Computers and Structures\SAP2000 23>sap2000.exe /L PLUS'
     
     # ProgramPath = "C:\Program Files\Computers and Structures\SAP2000 23\plus.bat"
