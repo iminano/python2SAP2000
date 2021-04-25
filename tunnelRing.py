@@ -4,6 +4,7 @@ Created on Fri Apr  9 12:39:27 2021
 
 @author: iminano
 """
+pip install comtypes
 import comtypes.client
 import streamlit as st
 import numpy as np
