@@ -1,4 +1,3 @@
-!pip install --upgrade pip
 /app/python2sap2000/
 py -m pip freeze > requirements.txt
 py -m pip install -r requirements.txt
