@@ -1,2 +1,2 @@
-comtypes == 1.1.7
-
+py -m pip freeze > requirements.txt
+py -m pip install -r requirements.txt
