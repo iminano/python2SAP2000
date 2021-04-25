@@ -91,13 +91,13 @@ def runSAP2000(loc):
     
     #otherwise the latest installed version of SAP2000 will be launched
     
-    SpecifyPath = True
+    SpecifyPath = False
     
      
     
     #if the above flag is set to True, specify the path to SAP2000 below
     
-    ProgramPath = 'C:\Program Files\Computers and Structures\SAP2000 23\SAP2000.exe'
+    # ProgramPath = 'C:\Program Files\Computers and Structures\SAP2000 23\SAP2000.exe'
     # ProgramPath = 'C:\Program Files\Computers and Structures\SAP2000 23>sap2000.exe /L PLUS'
     
     # ProgramPath = "C:\Program Files\Computers and Structures\SAP2000 23\plus.bat"
