@@ -1,5 +1,2 @@
 comtypes == 1.1.7
-numpy == 1.19.2
-streamlit == 0.80.0
-pandas == 1.1.3
 
