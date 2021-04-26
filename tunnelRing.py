@@ -6,7 +6,7 @@ Created on Fri Apr  9 12:39:27 2021
 """
 
 
-import comtypes.client
+
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -14,6 +14,9 @@ import math
 import os
 import sys
 
+os.system("pip install comtypes")
+
+import comtypes.client
 
 st.write("""
 
