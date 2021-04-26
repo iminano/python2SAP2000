@@ -16,7 +16,7 @@ import sys
 
 os.system("pip install comtypes")
 
-import comtypes.client
+from comtypes import client
 
 st.write("""
 
