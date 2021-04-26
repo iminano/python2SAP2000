@@ -14,9 +14,14 @@ import math
 import os
 import sys
 
+os.chdir(os.getcwd())    
+if not os.path.exists('nenv'):
+   os.system("conda create --prefix=nenv python=3.9.4")
+   os.system("activate "+str(os.getcwd())+"\nenv")
+    
 os.system("pip install comtypes")
 
-from comtypes import client
+import comtypes.client
 
 st.write("""
 
